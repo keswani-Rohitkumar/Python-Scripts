@@ -15,3 +15,4 @@ emp_1 = Employee('Rohit', 'Keswani', '50000')
 
 #print(emp_1.fullname())
 print(Employee.fullname(emp_1))
+print(Employee.lastname(emp_1))
