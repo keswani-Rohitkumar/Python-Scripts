@@ -27,7 +27,7 @@ emp_1 = Employee('Rohit', 'Keswani', '50000')
 print(Employee.fullname(emp_1))
 print(Employee.lastname(emp_1))
 
-# print(emp_1.__dict__)
+print(emp_1.__dict__)
 # emp_1.raise_amount = 1.06
 # print(emp_1.__dict__)
 # print(emp_1.raise_amount)
