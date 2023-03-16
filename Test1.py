@@ -19,7 +19,6 @@ class Employee:
     def apply_raise(self):
         self.pay = int(self.pay * self.raise_amount)
     
-
 print(Employee.num_of_employees)
 
 emp_1 = Employee('Rohit', 'Keswani', '50000')
@@ -27,9 +26,6 @@ emp_1 = Employee('Rohit', 'Keswani', '50000')
 #print(emp_1.fullname())
 print(Employee.fullname(emp_1))
 print(Employee.lastname(emp_1))
-
-
-
 
 # print(emp_1.__dict__)
 # emp_1.raise_amount = 1.06
