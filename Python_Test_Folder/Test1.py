@@ -36,36 +36,37 @@ class Employee:
             return True
 
 
-print(Employee.num_of_employees)
 
-emp_1 = Employee('Rohit', 'Keswani', '50000')
+# print(Employee.num_of_employees)
 
-#print(emp_1.fullname())
-print(Employee.fullname(emp_1))
-print(Employee.lastname(emp_1))
+# emp_1 = Employee('Rohit', 'Keswani', '50000')
 
-print(emp_1.__dict__)
+# #print(emp_1.fullname())
+# print(Employee.fullname(emp_1))
+# print(Employee.lastname(emp_1))
 
-print(Employee.raise_amount)
-print(emp_1.raise_amount)
-Employee.set_raise_amt(1.10)
-print(Employee.raise_amount)
-print(emp_1.raise_amount)
-
-# emp_1.raise_amount = 1.06
 # print(emp_1.__dict__)
-# print(emp_1.raise_amount)
+
 # print(Employee.raise_amount)
+# print(emp_1.raise_amount)
+# Employee.set_raise_amt(1.10)
+# print(Employee.raise_amount)
+# print(emp_1.raise_amount)
+
+# # emp_1.raise_amount = 1.06
+# # print(emp_1.__dict__)
+# # print(emp_1.raise_amount)
+# # print(Employee.raise_amount)
 
 
-emp_str_1 = 'Johm-Doe-0000'
+# emp_str_1 = 'Johm-Doe-0000'
 
-emp_str1 = Employee.from_string(emp_str_1)
+# emp_str1 = Employee.from_string(emp_str_1)
 
-print(emp_str1.last)
+# print(emp_str1.last)
 
 
-import datetime
-my_date = datetime.date(2016, 7, 10)
+# import datetime
+# my_date = datetime.date(2016, 7, 10)
 
-print(Employee.is_workday(my_date))
+# print(Employee.is_workday(my_date))
