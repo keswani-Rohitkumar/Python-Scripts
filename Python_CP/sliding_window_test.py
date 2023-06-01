@@ -10,7 +10,6 @@ for i in range(5):
     
 print(max_sum)
 print("Github Check")
-
 #Class for finding maximum average in subarray
 
 # class Solution:
