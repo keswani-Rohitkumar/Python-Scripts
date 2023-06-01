@@ -7,7 +7,8 @@ max_sum = window_sum
 for i in range(5):
     window_sum = window_sum - arr[i] + arr[i + k]
     max_sum = max(window_sum, max_sum)
-   
+    
+print(max_sum)
 print(max_sum)
 
 #Class for finding maximum average in subarray
