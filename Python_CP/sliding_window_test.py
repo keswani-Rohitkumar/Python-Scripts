@@ -9,7 +9,7 @@ for i in range(5):
     max_sum = max(window_sum, max_sum)
    
 print(max_sum)
-
+print(max_sum)
 #Class for finding maximum average in subarray
 
 # class Solution:
