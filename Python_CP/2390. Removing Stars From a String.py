@@ -8,6 +8,7 @@ class Solution:
             else:
                 stack.append(i)
         return "".join([str(i) for i in stack])
+    
 
-# a = Solution()
-# print(a.removeStars("leet**cod*e"))
+a = Solution()
+print(a.removeStars("leet**cod*e"))
